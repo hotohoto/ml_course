@@ -37,9 +37,10 @@ exit
 
 ```bash
 echo "hello world" > hello.txt
-echo "hi world" &> hello.txt
+echo "hi world" >> hello.txt
 echo "hello world" > /dev/null
-ls -z 2> /dev/null
+ls 1> out.txt 2> error.txt
+ls -z 1> out.txt 2> error.txt
 ```
 
 ### pipe
