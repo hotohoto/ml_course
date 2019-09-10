@@ -93,6 +93,7 @@ wget https://raw.githubusercontent.com/uiuc-cse/data-fa14/gh-pages/data/iris.csv
 ifconfig
 ssh example_account@example.com
 scp hello.txt example_account@example.com:/home/example_account/
+scp demo@test.rebex.net:/readme.txt ./
 ```
 
 ### environment variables
@@ -130,7 +131,7 @@ FOO=BAR ./hello.sh
 ### python development
 
 ```bash
-pip3 -m venv venv
+python3 -m venv venv
 . venv/bin/activate
 pip install numpy
 pip install -U pip
