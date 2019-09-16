@@ -145,10 +145,16 @@ code .
 
 ## additional topics
 
+- soft link
+  - ln -s target_file link_file_name
 - return code or error code
+  - `$?`
+  - 0: success
+  - non-zero: fail
 - &&
 - ||
 - watch
+  - `watch ps aux`
 - find and execute
 - awk
 - nano or vim
