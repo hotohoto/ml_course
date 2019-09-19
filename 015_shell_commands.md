@@ -143,6 +143,16 @@ deactivate
 code .
 ```
 
+### git commands to get source codes
+
+```bash
+git clone git@github.com:hotohoto/ml_course.git
+cd ml_course
+git fetch
+git log origin/master
+git reset --hard origin/master
+```
+
 ## additional topics
 
 - soft link
