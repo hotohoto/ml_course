@@ -17,7 +17,9 @@ jsonschema==3.0.2
 jupyter==1.0.0
 jupyter-client==5.3.1
 jupyter-console==6.0.0
+jupyter-contrib-core==0.3.3
 jupyter-core==4.5.0
+jupyter-nbextensions-configurator==0.4.1
 kiwisolver==1.1.0
 lazy-object-proxy==1.4.2
 MarkupSafe==1.1.1
@@ -44,6 +46,7 @@ pylint==2.3.1
 pyparsing==2.4.2
 pyrsistent==0.15.4
 python-dateutil==2.8.0
+PyYAML==5.1.2
 pyzmq==18.1.0
 qtconsole==4.5.4
 Send2Trash==1.5.0
