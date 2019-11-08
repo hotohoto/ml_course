@@ -1,3 +1,5 @@
 venv
 .vscode
 .ipynb_checkpoints
+datasets/FashionMNIST
+runs
