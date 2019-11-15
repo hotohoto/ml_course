@@ -16,6 +16,30 @@ git commit --help
 
 - 특정 command에 대해 궁금할 경우 `--help`를 붙여서 도움말을 볼 수 있음.
 
+## 설정하기 (git config)
+
+```bash
+git config --global user.email "email@example.com"
+git config --global user.name "Bashful Smith"
+```
+
+- commit 에 표시할 이메일 설정 (필수)
+- commit 에 표시할 이름 설정
+
+```bash
+git config --global -l
+git config --local -l
+```
+
+- global 설정 목록 보기
+- local 설정 목록 보기
+
+```bash
+git config --global diff.wsErrorHighlight all
+ ```
+
+ whitespace 차이 보기
+
 ### 새롭게 Git repository를 시작함
 
 ```bash
