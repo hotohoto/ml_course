@@ -103,8 +103,11 @@ env
 FOO=BAR a_script.sh
 source venv/bin/activate
 . venv/bin/activate
+```
 
-# etc
+### etc
+
+```bash
 ln -s target_file link_file_to_create
 nano hello.txt
 ```
@@ -141,6 +144,20 @@ pip install -r requirements.txt
 python hello.py
 deactivate
 code .
+```
+
+(pyenv)
+
+```bash
+# install pyenv with the guide from https://realpython.com/intro-to-pyenv/
+
+pyenv versions
+pyenv install --list
+pyenv install 3.8.0
+pyenv global
+pyenv global 3.8.0
+pyenv local
+pyenv local 3.6.9
 ```
 
 ### git commands to get source codes
