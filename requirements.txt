@@ -5,7 +5,7 @@ astroid==2.3.2
 attrs==19.3.0
 backcall==0.1.0
 black==19.3b0
-bleach==3.1.0
+bleach==3.1.2
 Click==7.0
 cycler==0.10.0
 decorator==4.4.0
