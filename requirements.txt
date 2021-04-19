@@ -8,6 +8,15 @@ sklearn
 seaborn
 missingno
 
+# automl
+ray
+optuna
+hyperopt
+hpbandster
+ConfigSpace
+tabulate
+tensorboardX
+
 #development
 black
 pylint
