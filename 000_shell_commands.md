@@ -153,11 +153,14 @@ code .
 
 pyenv versions
 pyenv install --list
-pyenv install 3.8.0
+pyenv install 3.8.12
 pyenv global
-pyenv global 3.8.0
+pyenv global 3.8.12
 pyenv local
-pyenv local 3.6.9
+pyenv local 3.8.12
+
+# update the python version list if you don't see the latest versions
+cd ~/.pyenv && git pull && cd -
 ```
 
 ### git commands to get source codes
