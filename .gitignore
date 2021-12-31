@@ -2,5 +2,6 @@ venv
 .vscode
 .ipynb_checkpoints
 datasets/FashionMNIST
+datasets/MNIST
 runs
 __pycache__
