@@ -3,6 +3,9 @@ jupyter
 matplotlib
 numpy
 pandas
+pyarrow
+pytorch-lightning
+pytorch-forecasting
 scipy
 sklearn
 seaborn
