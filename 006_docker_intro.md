@@ -137,6 +137,11 @@ COPY server.py .
 CMD ["python3", "./server.py"]
 ```
 
+## etc.
+
+- 특별한 이유가 없으면 `ADD`보단 `COPY`를 쓴는 것을 추천
+- `CMD`는 argument 들만 바꿀수는 없지만 커맨드 전체를 바꿀 수 있다. `ENTRYPOINT` 는 기본적으로 커멘들 바꾸지 않고 argument 들을 추가하여 실행된다. 커맨드는 유지하고 argument드은 디폴트 값을 지정하고 싶은 경우 커맨드는 `ENTRYPOINT`로 하고 argument 부분만 `CMD`를 쓰는 식으로 경우에 따라 둘 다 쓰는 것도 가능하다.
+
 ## References
 
 - [docker example with Flask](https://github.com/datawire/hello-world)
