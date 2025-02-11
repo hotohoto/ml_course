@@ -4,6 +4,7 @@ matplotlib
 numpy
 pandas
 pyarrow
+pydantic
 pytorch-lightning
 pytorch-forecasting
 scipy
